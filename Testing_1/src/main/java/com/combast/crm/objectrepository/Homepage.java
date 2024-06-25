@@ -34,7 +34,7 @@ public class Homepage {
 	private WebElement signout;
 	@FindBy(xpath = "//a[text()='Products']")
 	private WebElement productlink;
-	public WebElement getProductlink() {
+	private WebElement getProductlink() {
 		return productlink;
 	}
 	public WebElement getSignout() {
