@@ -4,7 +4,7 @@ import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.FindBy;
 import org.testng.annotations.Test;
 
-public class Products {
+public class Product {
 
 	@FindBy(xpath = "//img[@src='themes/softed/images/btnL3Add.gif']")
 	private WebElement productimage;
