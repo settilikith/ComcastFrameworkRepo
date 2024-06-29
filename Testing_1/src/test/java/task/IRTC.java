@@ -31,7 +31,7 @@ public class IRTC {
     driver.findElement(By.xpath("//input[@aria-controls='pr_id_2_list']")).sendKeys("HYDERABAD DECAN - HYB (SECUNDERABAD)");
     
     driver.findElement(By.id("jDate")).click();
-    driver.findElement(By.xpath("//tr[@class='ng-tns-c58-10 ng-star-inserted']/descendant::td[@class='ng-tns-c58-10 ng-star-inserted'and(contains(.,'19'))]/a[@class='ui-state-default ng-tns-c58-10 ng-star-inserted']")).click();
+    driver.findElement(By.xpath("//tr[@class='ng-tns-c58-10 ng-star-inserted']/descendant::td[@class='ng-tns-c58-10 ng-star-inserted'and(contains(.,'29'))]/a[@class='ui-state-default ng-tns-c58-10 ng-star-inserted']")).click();
     Thread.sleep(1000);
     driver.findElement(By.xpath("//div[@class='ui-dropdown-trigger ui-state-default ui-corner-right ng-tns-c65-11']")).click();
     driver.findElement(By.xpath("//li[@role='option']/ancestor::p-dropdownitem[@class='ng-tns-c65-11 ng-star-inserted'and(contains(.,'Sleeper (SL)'))]/descendant::li[@role='option']")).click();
